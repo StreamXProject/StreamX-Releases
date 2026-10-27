@@ -63,7 +63,9 @@ def main():
         result = subprocess.run(['gh', 'api', '--method', 'PUT', f'repos/{REPO}/contents/{CATALOGUE}', '--input', '-'],
                                 input=json.dumps(payload), text=True, capture_output=True)
         if result.returncode == 0:
-            print('Updated direct skin links')
+            # Commits made by GITHUB_TOKEN do not start a Pages build automatically.
+            subprocess.run(['gh', 'api', '--method', 'POST', f'repos/{REPO}/pages/builds'], check=True, capture_output=True)
+            print('Updated direct skin links and requested Pages deployment')
             return
         if '409' not in result.stderr or attempt == 2:
             raise RuntimeError(result.stderr)
