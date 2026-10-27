@@ -28,7 +28,6 @@ async function loadReleases() {
     const releases = await response.json();
     const appReleases = releases.filter(r => !r.draft && /^v\d+(?:\.\d+)+(?:-[\w.-]+)?$/.test(r.tag_name) && assets(r).some(a => a.name.endsWith('.apk')));
     const stable = appReleases.find(r => !r.prerelease);
-    const preview = appReleases.find(r => r.prerelease);
     if (stable) {
       const apk = assets(stable).find(a => a.name === 'StreamX.apk');
       const download = apk && link(apk, '');
@@ -38,10 +37,6 @@ async function loadReleases() {
       document.getElementById('stable-title').textContent = `StreamX ${stable.tag_name.replace(/^v/, '')}`;
       document.getElementById('stable-detail').textContent = `Released ${date(stable.published_at)} · SHA-256 checksums included`;
       apkLinks(stable, 'stable-assets');
-    }
-    if (preview) {
-      apkLinks(preview, 'preview-assets');
-      document.getElementById('preview-detail').textContent = `${preview.tag_name} · ${date(preview.published_at)}`;
     }
     const model = releases.filter(r => !r.draft && /^automix-\d+$/.test(r.tag_name)).sort((a, b) => Number(b.tag_name.slice(8)) - Number(a.tag_name.slice(8)))[0];
     if (model) {
