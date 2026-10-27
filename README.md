@@ -18,6 +18,14 @@ App versions use `v1.8` or `v1.8-preview.…` tags. Model packages use `automix-
 
 ## Skin gallery
 
-The website includes eight released skins with interactive Home, Library and Player previews in light and dark mode. These are illustrative HTML/CSS layouts, not Android screenshots. Colours and layout settings in `docs/skins.json` come from the public skin manifests. Each skin links to its matching public APK and source directory.
+The website includes eight released skins with interactive Home, Library and Player previews in light and dark mode. These are illustrative HTML/CSS layouts, not Android screenshots. Colours and layout settings in `docs/skins.json` come from the public skin manifests. Each skin links to its matching public APK and its existing public skin source directory. Current APK links come from the shared public manifest; bundled links are fallbacks.
 
 Update `skins.json` when skin releases change; keep APK links on `github.com/StreamXProject/Skins/releases/download/`. Source manifests live in `StreamXProject/Skins/extensions/skins/<id>/app/src/main/assets/streamx/skin.json`.
+
+## Shared extension manifest
+
+Public URL: https://streamxproject.github.io/StreamX-Releases/extensions/index.json
+
+This v1 manifest serves **plugins and skins together**. Each `apkUrl` points to a public release asset in this repository, so visitors and app users need no GitHub account or token. The `extensions-v…` releases are separate from app releases and never become the latest app update.
+
+The plugin/skin source and signing configuration remain private in `StreamXProject/Plugins`. Its publishing service mirrors only verified APKs, checksums and the public manifest. The website loads the same manifest to show plugin downloads, all available skins and current gallery download links. No publisher credential is sent to visitors.

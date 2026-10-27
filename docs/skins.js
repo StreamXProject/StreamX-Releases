@@ -53,13 +53,21 @@
       if (!response.ok) throw Error('Skin collection unavailable');
       collection = await response.json();
       if (!Array.isArray(collection) || !collection.length) throw Error('No skins');
+      try {
+        const manifest = await window.streamxExtensionManifest;
+        if (manifest) collection = collection.map(skin => {
+          const entry = manifest.extensions.filter(item => item.type === 'skin' && item.id === skin.id)
+            .sort((a, b) => b.versionCode - a.versionCode)[0];
+          return entry ? {...skin, download: entry.apkUrl, version: entry.versionName} : skin;
+        });
+      } catch (error) { console.info('Using bundled skin download links.', error.message); }
       for (const skin of collection) {
         if (!/^[a-z0-9-]+$/.test(skin.id)) throw Error('Invalid skin');
         for (const palette of [skin.dark, skin.light]) {
           if (!['background','surface','surfaceVariant','text','secondary','accent'].every(key => /^#[0-9a-f]{6}$/i.test(palette[key]))) throw Error('Invalid palette');
         }
         const url = new URL(skin.download);
-        if (url.origin !== 'https://github.com' || !url.pathname.startsWith('/StreamXProject/Skins/releases/download/')) throw Error('Invalid download');
+        if (url.origin !== 'https://github.com' || !['Skins', 'StreamX-Releases'].some(repo => url.pathname.startsWith(`/StreamXProject/${repo}/releases/download/`))) throw Error('Invalid download');
         const button=document.createElement('button');
         button.type='button';button.className='skin-choice';button.dataset.skin=skin.id;
         button.innerHTML=`<span class="skin-swatch" aria-hidden="true"><i style="background:${skin.dark.background}"></i><i style="background:${skin.dark.surfaceVariant}"></i><i style="background:${skin.dark.accent}"></i></span><span>${escape(skin.name)}</span><span class="skin-check" aria-hidden="true">✓</span>`;
