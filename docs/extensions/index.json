@@ -13,7 +13,7 @@
         "arm64-v8a"
       ],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.083309/streamx-applemusic-v0.10.0-arm64-v8a.apk",
+      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.092648/streamx-applemusic-v0.10.0-arm64-v8a.apk",
       "sha256": "75277461d0d5ae8e4d9414d3682cbb061f185f81460c78c0b962c10c2dfb0870",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
       "size": 30103327
@@ -29,7 +29,7 @@
         "x86_64"
       ],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.083309/streamx-applemusic-v0.10.0-x86_64.apk",
+      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.092648/streamx-applemusic-v0.10.0-x86_64.apk",
       "sha256": "a773901045109a92fccaabfd29b5103ad64564799f5f7f2b95840bc9f871d903",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
       "size": 9562128
@@ -45,7 +45,7 @@
         "arm64-v8a"
       ],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.083309/streamx-spotify-v0.5.23-arm64-v8a.apk",
+      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.092648/streamx-spotify-v0.5.23-arm64-v8a.apk",
       "sha256": "90bce04724af62a1bdb2b45c01fa84db40ba2e5d44fe723af37bd5b19f2e181e",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
       "size": 8362505
@@ -61,7 +61,7 @@
         "armeabi-v7a"
       ],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.083309/streamx-spotify-v0.5.23-armeabi-v7a.apk",
+      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.092648/streamx-spotify-v0.5.23-armeabi-v7a.apk",
       "sha256": "8e7df5b33df7ac45ff06139dbe9fa5380d387b00b33ce67f629467d0d5c4387c",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
       "size": 7841967
@@ -77,7 +77,7 @@
         "x86_64"
       ],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.083309/streamx-spotify-v0.5.23-x86_64.apk",
+      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.092648/streamx-spotify-v0.5.23-x86_64.apk",
       "sha256": "5574acb345d2f06435a317c49f8526ecd58045a040238addce1351b197129d9e",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
       "size": 8561186
@@ -93,7 +93,7 @@
         "arm64-v8a"
       ],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.083309/streamx-cloudstream-v0.2.3-arm64-v8a.apk",
+      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.092648/streamx-cloudstream-v0.2.3-arm64-v8a.apk",
       "sha256": "c31f118cef89222669fbf444bf05b19a3116ab2866ade0e200a924eb52be2683",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
       "size": 10969601
@@ -109,7 +109,7 @@
         "x86_64"
       ],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.083309/streamx-cloudstream-v0.2.3-x86_64.apk",
+      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.092648/streamx-cloudstream-v0.2.3-x86_64.apk",
       "sha256": "49895f6ff4b7c0eea0cf6c15318ff6f480781f4400a8550bb831e1bfbf30c0df",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
       "size": 10915932
@@ -118,15 +118,15 @@
       "id": "amazonmusic",
       "name": "Amazon Music",
       "packageName": "com.music.streamx.extensions.amazonmusic",
-      "versionCode": 10004,
-      "versionName": "0.1.0",
+      "versionCode": 20005,
+      "versionName": "0.1.1",
       "type": "plugin",
       "abis": [],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.083309/streamx-amazonmusic-v0.1.0.apk",
-      "sha256": "463f495d4726f4ea2afd4de5af667d322c704e164e3c6452d966f03b10bffa21",
+      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.092648/streamx-amazonmusic-v0.1.1.apk",
+      "sha256": "15e84fc32dd9a1e45595481bd104da8d770b3d36d83a38c194b2ee4fd04a4a82",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
-      "size": 932933
+      "size": 934965
     },
     {
       "id": "apple-music",
@@ -137,7 +137,7 @@
       "type": "skin",
       "abis": [],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.083309/streamx-apple-music-v1.5.2.apk",
+      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.092648/streamx-apple-music-v1.5.2.apk",
       "sha256": "62059ce33f662384b347940b8e11844dad3ca5b263c3c98d513905852a197a22",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
       "size": 119256
@@ -151,7 +151,7 @@
       "type": "skin",
       "abis": [],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.083309/streamx-comic-v1.0.3.2.apk",
+      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.092648/streamx-comic-v1.0.3.2.apk",
       "sha256": "961fe7914d2ee7df0da07b0935ffc1faa332141d47c17067fc59e06e97dde037",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
       "size": 190090
@@ -165,7 +165,7 @@
       "type": "skin",
       "abis": [],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.083309/streamx-dot-v1.0.3.2.apk",
+      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.092648/streamx-dot-v1.0.3.2.apk",
       "sha256": "0d822ac48e1719eded598fc35d488710328fa675ea8f23bb1a7c45de89e3b446",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
       "size": 262926
@@ -179,7 +179,7 @@
       "type": "skin",
       "abis": [],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.083309/streamx-looper-v1.0.6.2.apk",
+      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.092648/streamx-looper-v1.0.6.2.apk",
       "sha256": "1f66357acafe8bab8c474402e853d5a7c8c7c4bf3ab37478733525f4e46e038e",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
       "size": 225660
@@ -193,7 +193,7 @@
       "type": "skin",
       "abis": [],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.083309/streamx-material-expressive-v1.0.3.2.apk",
+      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.092648/streamx-material-expressive-v1.0.3.2.apk",
       "sha256": "c40b458917e703c2cfa95034c75281831b4c42e6e71b6536af9150e595cdf944",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
       "size": 186492
@@ -207,7 +207,7 @@
       "type": "skin",
       "abis": [],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.083309/streamx-material-ui-3-v1.1.2.2.apk",
+      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.092648/streamx-material-ui-3-v1.1.2.2.apk",
       "sha256": "adc9022e7a65676aa1b189517ca121eb7fdc9f0f501f3df08434d571bc7b8f3e",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
       "size": 173424
@@ -221,7 +221,7 @@
       "type": "skin",
       "abis": [],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.083309/streamx-meridian-v1.0.1.2.apk",
+      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.092648/streamx-meridian-v1.0.1.2.apk",
       "sha256": "7968f4b1f10823ac6e8d2d248ae82f0c97bdf149e4c582f13bf3c09c38ba4e11",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
       "size": 97628
@@ -235,7 +235,7 @@
       "type": "skin",
       "abis": [],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.083309/streamx-spotui-v1.4.2.apk",
+      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.092648/streamx-spotui-v1.4.2.apk",
       "sha256": "b2ff6794854da30f6cff7f6223e05f868e6e270e69c8c7e78087090c1529f0e6",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
       "size": 217793
@@ -249,7 +249,7 @@
       "type": "skin",
       "abis": [],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.083309/streamx-ipod-v1.0.0.apk",
+      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.092648/streamx-ipod-v1.0.0.apk",
       "sha256": "9a24da88bb6a3882dcdb1c9906649e6b800ee48772c72ee8b7a0a991d9016695",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
       "size": 177591
@@ -263,7 +263,7 @@
       "type": "skin",
       "abis": [],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.083309/streamx-vinyl-v1.0.0.apk",
+      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.092648/streamx-vinyl-v1.0.0.apk",
       "sha256": "ff4afb23a1e6966d87cfb175bacb125cd83b981e774f858fb81aca30fe1c775b",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
       "size": 177011
@@ -277,7 +277,7 @@
       "type": "skin",
       "abis": [],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.083309/streamx-cassette-v1.0.0.apk",
+      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.092648/streamx-cassette-v1.0.0.apk",
       "sha256": "f4cb9308b2e6fa733d77b57cdf397540a2d18ed85fb2b004d160aef7d296e0a2",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
       "size": 185963
@@ -291,7 +291,7 @@
       "type": "skin",
       "abis": [],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.083309/streamx-discman-v1.0.0.apk",
+      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.092648/streamx-discman-v1.0.0.apk",
       "sha256": "0da32bde2e881af47b5751e56cf9e097b1f106e19e840675067cd56d9abf3c31",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
       "size": 176283
@@ -305,7 +305,7 @@
       "type": "skin",
       "abis": [],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.083309/streamx-nightwave-v1.0.0.apk",
+      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.092648/streamx-nightwave-v1.0.0.apk",
       "sha256": "4bf89d149cfca24aee5aa107c46435871b50a62eb15dc443424b6797ec8e0c78",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
       "size": 174835
@@ -319,7 +319,7 @@
       "type": "skin",
       "abis": [],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.083309/streamx-paper-v1.0.0.apk",
+      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.092648/streamx-paper-v1.0.0.apk",
       "sha256": "8029ed7bc48cb7f9e538d622367bf87b3daeaa5dd077565f007955d38afc85c5",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
       "size": 174615
@@ -333,7 +333,7 @@
       "type": "skin",
       "abis": [],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.083309/streamx-wave-v1.0.0.apk",
+      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.092648/streamx-wave-v1.0.0.apk",
       "sha256": "6df2909c54ad0be7b87fc76b103dd4bd2968d4386c25bfd0127aec02cbc396bf",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
       "size": 179787
@@ -347,7 +347,7 @@
       "type": "skin",
       "abis": [],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.083309/streamx-studio-v1.0.0.apk",
+      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.092648/streamx-studio-v1.0.0.apk",
       "sha256": "a0f87f3b715514f627190e6285b5928a69369197ad078ee9e268e50bbc69f0e4",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
       "size": 180599
@@ -361,7 +361,7 @@
       "type": "skin",
       "abis": [],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.083309/streamx-polaroid-v1.0.0.apk",
+      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.092648/streamx-polaroid-v1.0.0.apk",
       "sha256": "0c6da7373db06dc06a5f87131d24d3be58fcff5fa994a4cb554fa1ec3c6fbab8",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
       "size": 176871
@@ -375,7 +375,7 @@
       "type": "skin",
       "abis": [],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.083309/streamx-namida-v1.0.0.apk",
+      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.092648/streamx-namida-v1.0.0.apk",
       "sha256": "6d98415b883a43f389babbd333df3b3a535554a98789d5f8139bc6caf0218259",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
       "size": 318867
