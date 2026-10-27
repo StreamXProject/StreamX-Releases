@@ -1,0 +1,306 @@
+[
+  {
+    "id": "apple-music",
+    "name": "Apple Music",
+    "tagline": "Clean, familiar, immersive.",
+    "description": "Floating navigation, generous artwork and a pink accent give your library room to breathe.",
+    "dark": {
+      "background": "#000000",
+      "surface": "#1C1C1E",
+      "surfaceVariant": "#2C2C2E",
+      "text": "#FFFFFF",
+      "secondary": "#AAAAAA",
+      "accent": "#FA2D55"
+    },
+    "light": {
+      "background": "#FFFFFF",
+      "surface": "#F2F2F7",
+      "surfaceVariant": "#E5E5EA",
+      "text": "#111111",
+      "secondary": "#555555",
+      "accent": "#D91940"
+    },
+    "layout": {
+      "icons": "DEFAULT",
+      "home": "SHELVES",
+      "navigation": "FLOATING",
+      "library": "ROWS",
+      "settings": "GROUPED",
+      "player": "IMMERSIVE",
+      "artworkRadiusDp": 10,
+      "shelfWidthDp": 158,
+      "searchRadiusDp": 26,
+      "miniPlayerRadiusDp": 32
+    },
+    "cornerRadiusDp": 20,
+    "download": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.24.071217/streamx-apple-music-v1.5.2.apk",
+    "version": "1.5.2",
+    "source": "https://github.com/StreamXProject/Skins/tree/main/extensions/skins/apple-music"
+  },
+  {
+    "id": "spotui",
+    "name": "Spotui",
+    "tagline": "Your daily rotation.",
+    "description": "Compact quick access, green accents and a focused player keep favourites close.",
+    "dark": {
+      "background": "#121212",
+      "surface": "#181818",
+      "surfaceVariant": "#282828",
+      "text": "#FFFFFF",
+      "secondary": "#B3B3B3",
+      "accent": "#1DB954"
+    },
+    "light": {
+      "background": "#FFFFFF",
+      "surface": "#F5F5F5",
+      "surfaceVariant": "#EEEEEE",
+      "text": "#121212",
+      "secondary": "#555555",
+      "accent": "#087F3B"
+    },
+    "layout": {
+      "icons": "EXTENSION",
+      "home": "QUICK_ACCESS",
+      "navigation": "FLAT",
+      "library": "ROWS",
+      "settings": "FLAT",
+      "player": "EXTENSION",
+      "artworkRadiusDp": 4,
+      "shelfWidthDp": 144,
+      "searchRadiusDp": 4,
+      "miniPlayerRadiusDp": 6
+    },
+    "cornerRadiusDp": 4,
+    "download": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.24.071217/streamx-spotui-v1.4.2.apk",
+    "version": "1.4.2",
+    "source": "https://github.com/StreamXProject/Skins/tree/main/extensions/skins/spotui"
+  },
+  {
+    "id": "material-expressive",
+    "name": "Material Expressive",
+    "tagline": "A little more playful.",
+    "description": "Oversized shapes, soft corners and a lavender palette bring a more expressive rhythm.",
+    "dark": {
+      "background": "#141218",
+      "surface": "#211F26",
+      "surfaceVariant": "#2B2930",
+      "text": "#E6E0E9",
+      "secondary": "#CAC4D0",
+      "accent": "#D0BCFF"
+    },
+    "light": {
+      "background": "#FEF7FF",
+      "surface": "#F3EDF7",
+      "surfaceVariant": "#E7E0EC",
+      "text": "#1D1B20",
+      "secondary": "#49454F",
+      "accent": "#6750A4"
+    },
+    "layout": {
+      "icons": "EXTENSION",
+      "home": "QUICK_ACCESS",
+      "navigation": "FLAT",
+      "library": "ROWS",
+      "settings": "GROUPED",
+      "player": "EXTENSION",
+      "artworkRadiusDp": 24,
+      "shelfWidthDp": 184,
+      "searchRadiusDp": 28,
+      "miniPlayerRadiusDp": 24
+    },
+    "cornerRadiusDp": 28,
+    "download": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.24.071217/streamx-material-expressive-v1.0.3.2.apk",
+    "version": "1.0.3.2",
+    "source": "https://github.com/StreamXProject/Skins/tree/main/extensions/skins/material-expressive"
+  },
+  {
+    "id": "material-ui-3",
+    "name": "Material UI 3",
+    "tagline": "Comfortably Material.",
+    "description": "Tonal surfaces, rounded artwork and a familiar layout make everything feel at home.",
+    "dark": {
+      "background": "#141218",
+      "surface": "#211F26",
+      "surfaceVariant": "#2B2930",
+      "text": "#E6E0E9",
+      "secondary": "#CAC4D0",
+      "accent": "#D0BCFF"
+    },
+    "light": {
+      "background": "#FEF7FF",
+      "surface": "#F3EDF7",
+      "surfaceVariant": "#E7E0EC",
+      "text": "#1D1B20",
+      "secondary": "#49454F",
+      "accent": "#6750A4"
+    },
+    "layout": {
+      "icons": "EXTENSION",
+      "home": "QUICK_ACCESS",
+      "navigation": "FLAT",
+      "library": "ROWS",
+      "settings": "FLAT",
+      "player": "EXTENSION",
+      "artworkRadiusDp": 24,
+      "shelfWidthDp": 168,
+      "searchRadiusDp": 28,
+      "miniPlayerRadiusDp": 24
+    },
+    "cornerRadiusDp": 16,
+    "download": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.24.071217/streamx-material-ui-3-v1.1.2.2.apk",
+    "version": "1.1.2.2",
+    "source": "https://github.com/StreamXProject/Skins/tree/main/extensions/skins/material-ui-3"
+  },
+  {
+    "id": "looper",
+    "name": "Looper",
+    "tagline": "Stay in the loop.",
+    "description": "Bold headings, compact album shelves and a bright pink accent put music up front.",
+    "dark": {
+      "background": "#000000",
+      "surface": "#0A0A0A",
+      "surfaceVariant": "#181818",
+      "text": "#FFFFFF",
+      "secondary": "#AAAAAA",
+      "accent": "#F4427D"
+    },
+    "light": {
+      "background": "#FFFFFF",
+      "surface": "#F8F8F8",
+      "surfaceVariant": "#EEEEEE",
+      "text": "#111111",
+      "secondary": "#555555",
+      "accent": "#B31D52"
+    },
+    "layout": {
+      "icons": "EXTENSION",
+      "home": "QUICK_ACCESS",
+      "navigation": "FLAT",
+      "library": "ROWS",
+      "settings": "GROUPED",
+      "player": "EXTENSION",
+      "artworkRadiusDp": 8,
+      "shelfWidthDp": 128,
+      "searchRadiusDp": 24,
+      "miniPlayerRadiusDp": 32
+    },
+    "cornerRadiusDp": 20,
+    "download": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.24.071217/streamx-looper-v1.0.6.2.apk",
+    "version": "1.0.6.2",
+    "source": "https://github.com/StreamXProject/Skins/tree/main/extensions/skins/looper"
+  },
+  {
+    "id": "dot",
+    "name": "Dot",
+    "tagline": "Less noise. More signal.",
+    "description": "Monospaced type, crisp edges and amber highlights create a precise, minimal look.",
+    "dark": {
+      "background": "#000000",
+      "surface": "#131415",
+      "surfaceVariant": "#1E2122",
+      "text": "#DFE4E5",
+      "secondary": "#9BA2A5",
+      "accent": "#E8A33D"
+    },
+    "light": {
+      "background": "#F2F4F5",
+      "surface": "#FFFFFF",
+      "surfaceVariant": "#E2E5E6",
+      "text": "#131415",
+      "secondary": "#565C5F",
+      "accent": "#C97A1E"
+    },
+    "layout": {
+      "icons": "EXTENSION",
+      "home": "QUICK_ACCESS",
+      "navigation": "FLAT",
+      "library": "ROWS",
+      "settings": "FLAT",
+      "player": "EXTENSION",
+      "artworkRadiusDp": 0,
+      "shelfWidthDp": 148,
+      "searchRadiusDp": 0,
+      "miniPlayerRadiusDp": 0
+    },
+    "cornerRadiusDp": 0,
+    "download": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.24.071217/streamx-dot-v1.0.3.2.apk",
+    "version": "1.0.3.2",
+    "source": "https://github.com/StreamXProject/Skins/tree/main/extensions/skins/dot"
+  },
+  {
+    "id": "comic",
+    "name": "Comic",
+    "tagline": "Turn the volume up.",
+    "description": "Punchy type, square artwork and strong outlines bring a graphic novel attitude.",
+    "dark": {
+      "background": "#19191B",
+      "surface": "#242426",
+      "surfaceVariant": "#303033",
+      "text": "#FFF5DD",
+      "secondary": "#C6BEAC",
+      "accent": "#FFE54F"
+    },
+    "light": {
+      "background": "#F4EEDC",
+      "surface": "#FFFAEB",
+      "surfaceVariant": "#EBE2CB",
+      "text": "#191919",
+      "secondary": "#595449",
+      "accent": "#B4271D"
+    },
+    "layout": {
+      "icons": "EXTENSION",
+      "home": "QUICK_ACCESS",
+      "navigation": "FLAT",
+      "library": "ROWS",
+      "settings": "FLAT",
+      "player": "EXTENSION",
+      "artworkRadiusDp": 0,
+      "shelfWidthDp": 176,
+      "searchRadiusDp": 0,
+      "miniPlayerRadiusDp": 0
+    },
+    "cornerRadiusDp": 0,
+    "download": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.24.071217/streamx-comic-v1.0.3.2.apk",
+    "version": "1.0.3.2",
+    "source": "https://github.com/StreamXProject/Skins/tree/main/extensions/skins/comic"
+  },
+  {
+    "id": "meridian",
+    "name": "Meridian",
+    "tagline": "Find a warmer frequency.",
+    "description": "Deep ocean tones, warm accents and an editorial player create a calmer listening space.",
+    "dark": {
+      "background": "#0C1720",
+      "surface": "#13232D",
+      "surfaceVariant": "#1B313B",
+      "text": "#F5EEDC",
+      "secondary": "#9FADA9",
+      "accent": "#F3AB78"
+    },
+    "light": {
+      "background": "#F4F0E6",
+      "surface": "#FFFDF5",
+      "surfaceVariant": "#E7E5D9",
+      "text": "#162B33",
+      "secondary": "#556567",
+      "accent": "#944A29"
+    },
+    "layout": {
+      "icons": "EXTENSION",
+      "home": "QUICK_ACCESS",
+      "navigation": "FLAT",
+      "library": "ROWS",
+      "settings": "FLAT",
+      "player": "EXTENSION",
+      "artworkRadiusDp": 12,
+      "shelfWidthDp": 176,
+      "searchRadiusDp": 14,
+      "miniPlayerRadiusDp": 14
+    },
+    "cornerRadiusDp": 14,
+    "download": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.24.071217/streamx-meridian-v1.0.1.2.apk",
+    "version": "1.0.1.2",
+    "source": "https://github.com/StreamXProject/Skins/tree/main/extensions/skins/meridian"
+  }
+]
