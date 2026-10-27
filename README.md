@@ -1,31 +1,70 @@
+<div align="center">
+
 # StreamX downloads
 
-Official Android APKs and optional Advanced Automix engine/model packages.
+Official APKs for [StreamX](https://github.com/StreamXProject/StreamX), its plugins and skins,
+and the optional Automix engine.
 
-- **[Download website](https://streamxproject.github.io/StreamX-Releases/)**
-- **[App releases and checksums](https://github.com/StreamXProject/StreamX-Releases/releases)**
-- **[Advanced Automix package 1](https://github.com/StreamXProject/StreamX-Releases/releases/tag/automix-1)**
+[Website](https://streamxproject.github.io/StreamX-Releases/) ·
+[Latest app](https://github.com/StreamXProject/StreamX-Releases/releases/latest) ·
+[All releases](https://github.com/StreamXProject/StreamX-Releases/releases) ·
+[Source](https://github.com/StreamXProject/StreamX)
 
-The main APK download targets ARM64 devices running Android 8.0 or later. Other architectures are offered when available. Advanced Automix is installed from Settings in supported app builds; it is distributed separately from the APK.
+</div>
 
-This repository contains the public download website and intentionally published binaries. App source is intended to be public in `StreamXProject/StreamX`; its visibility migration is pending separation of historical plugin code. Plugin implementations stay private in `StreamXProject/Plugins`. Skins are public in `StreamXProject/Skins`.
+## Install
 
-## Website
+Download `StreamX.apk` from the [latest release](https://github.com/StreamXProject/StreamX-Releases/releases/latest)
+and open it on your phone. It runs on ARM64 devices with Android 8.0 or later.
+After that, StreamX offers updates itself.
 
-GitHub Pages serves `docs/` from `main`. Release details are read from GitHub's public API; ordinary download links also work without JavaScript or API access. To preview locally, run `python3 -m http.server 8000 --directory docs`.
+Plugins and skins install from inside the app, under **Settings → Sources**.
+The Advanced Automix engine is a separate download, offered in Settings.
 
-App versions use `v1.8` or `v1.8-preview.…` tags. Model packages use `automix-N` tags and must never be marked as the latest app release. Stable app releases include `StreamX.apk`, architecture-specific APKs and `SHA256SUMS.txt`. Automix releases include a checksum manifest, one ZIP per supported architecture and `SHA256SUMS.txt`.
+To check a download, compare it with the release's `SHA256SUMS.txt`:
 
-## Skin gallery
+```sh
+sha256sum -c SHA256SUMS.txt --ignore-missing
+```
 
-The website includes eight released skins with interactive Home, Library and Player previews in light and dark mode. These are illustrative HTML/CSS layouts, not Android screenshots. Colours and layout settings in `docs/skins.json` come from the public skin manifests. Each skin links to its matching public APK and its existing public skin source directory. Current APK links come from the shared public manifest; bundled links are fallbacks.
+## What is published here
 
-Update `skins.json` when skin releases change; keep APK links on `github.com/StreamXProject/Skins/releases/download/`. Source manifests live in `StreamXProject/Skins/extensions/skins/<id>/app/src/main/assets/streamx/skin.json`.
+| Release | Tag | Contents |
+| --- | --- | --- |
+| App | `v1.8`, `v1.8-preview.…` | `StreamX.apk`, per-architecture APKs, `SHA256SUMS.txt` |
+| Plugins and skins | `extensions-v…` | One APK per extension, `SHA256SUMS.txt` |
+| Automix engine | `automix-N` | One ZIP per architecture, a manifest, `SHA256SUMS.txt` |
 
-## Shared extension manifest
+Only app releases are marked latest. Extension and Automix releases never
+appear as app updates.
 
-Public URL: https://streamxproject.github.io/StreamX-Releases/extensions/index.json
+## Source
 
-This v1 manifest serves **plugins and skins together**. Each `apkUrl` points to a public release asset in this repository, so visitors and app users need no GitHub account or token. The `extensions-v…` releases are separate from app releases and never become the latest app update.
+| Repository | Visibility | What it holds |
+| --- | --- | --- |
+| [StreamX](https://github.com/StreamXProject/StreamX) | Public, GPL-3.0 | The app |
+| [Skins](https://github.com/StreamXProject/Skins) | Public, GPL-3.0 | Skins |
+| Plugins | Private | Plugins; publishes the extension APKs mirrored here |
+| StreamX-Releases | Public | This website and the published binaries |
 
-The plugin/skin source and signing configuration remain private in `StreamXProject/Plugins`. Its publishing service mirrors only verified APKs, checksums and the public manifest. The website loads the same manifest to show plugin downloads, all available skins and current gallery download links. No publisher credential is sent to visitors.
+## For maintainers
+
+**Website.** GitHub Pages serves `docs/` from `main`. Release details come from
+GitHub's public API, and plain download links work without JavaScript. Preview
+locally with:
+
+```sh
+python3 -m http.server 8000 --directory docs
+```
+
+**Skin gallery.** `docs/skins.json` drives the eight interactive Home, Library
+and Player previews. They are HTML and CSS layouts, not screenshots, with
+colours taken from each skin's `skin.json` in the Skins repository. Update it
+when a skin release changes how a skin looks.
+
+**Extension manifest.** The app and the website both read
+[`extensions/index.json`](https://streamxproject.github.io/StreamX-Releases/extensions/index.json),
+which lists plugins and skins together. Every `apkUrl` points at an asset in
+this repository, so nobody needs a GitHub account or token to install. The
+Plugins repository's publish workflow mirrors only verified, signed APKs and
+the manifest; no publishing credential reaches this repository or its visitors.
