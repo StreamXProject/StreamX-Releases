@@ -39,3 +39,5 @@ python3 -m http.server 8000 --directory docs
 ```
 
 The extension list is at [`extensions/index.json`](https://streamxproject.github.io/StreamX-Releases/extensions/index.json).
+
+Screenshots for the hero and the skins tour go in `docs/assets/screens/` (file names are in the README there). A skin joins the picker once `skins/<id>/home.webp` exists. Plugin and skin logos in `docs/assets/logos/` are converted from the Android vector drawables with `scripts/vector-to-svg.py <drawable.xml> <out.svg>`.

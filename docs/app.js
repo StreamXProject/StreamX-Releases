@@ -32,7 +32,7 @@ async function loadReleases() {
     if (stable) {
       const apk = assets(stable).find(a => a.name === 'StreamX.apk');
       const download = apk && link(apk, '');
-      if (download) document.getElementById('download').href = download.href;
+      if (download) for (const a of document.querySelectorAll('#download, [data-download-mirror]')) a.href = download.href;
       document.getElementById('release-notes').href = `${releaseRoot}/tag/${encodeURIComponent(stable.tag_name)}`;
       document.getElementById('version').textContent = `${stable.tag_name} · Android 8.0+ · ARM64${apk ? ` · ${megabytes(apk.size)}` : ''}`;
       document.getElementById('stable-title').textContent = `StreamX ${stable.tag_name.replace(/^v/, '')}`;
