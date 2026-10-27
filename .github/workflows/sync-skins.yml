@@ -1,0 +1,27 @@
+name: Sync direct skin links
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 * * * *'
+permissions:
+  contents: write
+concurrency:
+  group: skin-catalogue
+  cancel-in-progress: false
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Download the published Skins catalogue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release download repo --repo StreamXProject/Skins --pattern index.json --dir source
+      - name: Test catalogue merging
+        run: python3 scripts/test-sync-skins.py
+      - name: Update public catalogue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 scripts/sync-skins.py source/index.json

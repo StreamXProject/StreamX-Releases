@@ -141,15 +141,15 @@
       "name": "Apple Music",
       "packageName": "com.music.streamx.skins.applemusic",
       "versionCode": 150006,
-      "versionName": "1.5.3",
+      "versionName": "1.5.2",
       "type": "skin",
       "abis": [],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.120235/streamx-apple-music-v1.5.3.apk",
-      "sha256": "20c1f5b1201bf2cc9545f4c7265c87b8292ee62ac9fe71c2884678b0554764bc",
+      "apkUrl": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.27.155533/streamx-apple-music-v1.5.2.apk",
+      "sha256": "1b1f28573e6de35b7c48831c9c71cc3c7361dc80eb273e45d2b6672a1381d34a",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
-      "size": 402444,
-      "iconUrl": "https://streamxproject.github.io/StreamX-Releases/extensions/icons/streamx-icon-com.music.streamx.skins.applemusic-0220eaea73f9.svg"
+      "size": 402436,
+      "iconUrl": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.27.155533/streamx-icon-com.music.streamx.skins.applemusic-0220eaea73f9.svg"
     },
     {
       "id": "comic",
@@ -160,11 +160,11 @@
       "type": "skin",
       "abis": [],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.120235/streamx-comic-v1.0.3.2.apk",
-      "sha256": "b4a40968c9dddda7784cb98b628e6411d89eac117f4f0ecfb7a5dc5f238aac3b",
+      "apkUrl": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.27.155533/streamx-comic-v1.0.3.2.apk",
+      "sha256": "9f638a7b5803434bf7199b3b18662abbf1911cd3c40543c30c636963d89f4776",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
-      "size": 190090,
-      "iconUrl": "https://streamxproject.github.io/StreamX-Releases/extensions/icons/streamx-icon-com.music.streamx.skins.comic-cb3edd8b57f7.svg"
+      "size": 190086,
+      "iconUrl": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.27.155533/streamx-icon-com.music.streamx.skins.comic-cb3edd8b57f7.svg"
     },
     {
       "id": "dot",
@@ -175,11 +175,11 @@
       "type": "skin",
       "abis": [],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.120235/streamx-dot-v1.0.3.2.apk",
-      "sha256": "c2dc2157d3de9906d62e88ba80a38a1186d90b7f193b2c1ade0eaa5525dd8e1a",
+      "apkUrl": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.27.155533/streamx-dot-v1.0.3.2.apk",
+      "sha256": "9785278cf90583b17241fd85f94ff483e0b06916f56ede5fe442cf80e5b7f5d3",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
       "size": 262926,
-      "iconUrl": "https://streamxproject.github.io/StreamX-Releases/extensions/icons/streamx-icon-com.music.streamx.skins.dot-cd173d0c92a0.svg"
+      "iconUrl": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.27.155533/streamx-icon-com.music.streamx.skins.dot-cd173d0c92a0.svg"
     },
     {
       "id": "looper",
@@ -190,11 +190,11 @@
       "type": "skin",
       "abis": [],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.120235/streamx-looper-v1.0.6.2.apk",
-      "sha256": "2735188f99eb85e7899220674b4bfcd220fac7099422f7f0615de871be8d7817",
+      "apkUrl": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.27.155533/streamx-looper-v1.0.6.2.apk",
+      "sha256": "2a29df0db87c4d0833424e65bbe856157cf6207567683a49b3be7ac48ea1b820",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
       "size": 225660,
-      "iconUrl": "https://streamxproject.github.io/StreamX-Releases/extensions/icons/streamx-icon-com.music.streamx.skins.looper-0c9f8ee21937.svg"
+      "iconUrl": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.27.155533/streamx-icon-com.music.streamx.skins.looper-0c9f8ee21937.svg"
     },
     {
       "id": "material-expressive",
@@ -205,11 +205,11 @@
       "type": "skin",
       "abis": [],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.120235/streamx-material-expressive-v1.0.3.2.apk",
-      "sha256": "4364c605f5f2879a48208c0fceae278977e67a07adacedaf33af1253443ae785",
+      "apkUrl": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.27.155533/streamx-material-expressive-v1.0.3.2.apk",
+      "sha256": "d1578f56f711efa5146cd233172f8ccd7ebd05149617a976da1d27ff1ac9ca73",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
-      "size": 186492,
-      "iconUrl": "https://streamxproject.github.io/StreamX-Releases/extensions/icons/streamx-icon-com.music.streamx.skins.expressive-106b3981d057.svg"
+      "size": 186488,
+      "iconUrl": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.27.155533/streamx-icon-com.music.streamx.skins.expressive-106b3981d057.svg"
     },
     {
       "id": "material-ui-3",
@@ -220,11 +220,11 @@
       "type": "skin",
       "abis": [],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.120235/streamx-material-ui-3-v1.1.2.2.apk",
-      "sha256": "e216b98dabb58314f4f5e5076ecf4c6b8cce4ce6dfc0bd6da438e1b675cbc384",
+      "apkUrl": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.27.155533/streamx-material-ui-3-v1.1.2.2.apk",
+      "sha256": "f69c90b2730579fb589b8777f1216b283d01ab434cc226b7c1b7f152d11b7f6b",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
-      "size": 173420,
-      "iconUrl": "https://streamxproject.github.io/StreamX-Releases/extensions/icons/streamx-icon-com.music.streamx.skins.material-626464de8bf0.svg"
+      "size": 173412,
+      "iconUrl": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.27.155533/streamx-icon-com.music.streamx.skins.material-626464de8bf0.svg"
     },
     {
       "id": "meridian",
@@ -235,11 +235,11 @@
       "type": "skin",
       "abis": [],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.120235/streamx-meridian-v1.0.1.2.apk",
-      "sha256": "37a5b95ccedbec105b9daf2cd8abe46e8e557dfb32bb6e390ae61290978c8a3a",
+      "apkUrl": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.27.155533/streamx-meridian-v1.0.1.2.apk",
+      "sha256": "3ab31660e7a314dbfff65ba91bda13d2accad565f231e857f8964453033a37d1",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
-      "size": 97624,
-      "iconUrl": "https://streamxproject.github.io/StreamX-Releases/extensions/icons/streamx-icon-com.music.streamx.skins.meridian-7e835fefbd6c.svg"
+      "size": 97628,
+      "iconUrl": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.27.155533/streamx-icon-com.music.streamx.skins.meridian-7e835fefbd6c.svg"
     },
     {
       "id": "spotui",
@@ -250,11 +250,11 @@
       "type": "skin",
       "abis": [],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.120235/streamx-spotui-v1.4.2.apk",
-      "sha256": "e4c5d34293a2b8d795380e79b05fdbbdd396a0cbfc851efc26b9778dbf57a559",
+      "apkUrl": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.27.155533/streamx-spotui-v1.4.2.apk",
+      "sha256": "578401320e355ddc4889e972e78c238d611f7e14493e19a48aa944517eae4d5c",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
-      "size": 217789,
-      "iconUrl": "https://streamxproject.github.io/StreamX-Releases/extensions/icons/streamx-icon-com.music.streamx.skins.spotui-bc5a986e51d1.svg"
+      "size": 217793,
+      "iconUrl": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.27.155533/streamx-icon-com.music.streamx.skins.spotui-bc5a986e51d1.svg"
     },
     {
       "id": "ipod",
@@ -265,11 +265,11 @@
       "type": "skin",
       "abis": [],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.120235/streamx-ipod-v1.0.0.apk",
-      "sha256": "38a0f52d553f78ab86821f242f76d03d893b53a0480199fa8896c16c0c0bfb3f",
+      "apkUrl": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.27.155533/streamx-ipod-v1.0.0.apk",
+      "sha256": "4c8f7cf0e1290144017f68a9acd96fbd1b16089e9a6554d15f190445d76b3e6f",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
-      "size": 177587,
-      "iconUrl": "https://streamxproject.github.io/StreamX-Releases/extensions/icons/streamx-icon-com.music.streamx.skins.ipod-6170462576fd.svg"
+      "size": 177591,
+      "iconUrl": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.27.155533/streamx-icon-com.music.streamx.skins.ipod-6170462576fd.svg"
     },
     {
       "id": "vinyl",
@@ -280,11 +280,11 @@
       "type": "skin",
       "abis": [],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.120235/streamx-vinyl-v1.0.0.apk",
-      "sha256": "ff2daec90c9becda09ebdef09599a918a018fa53a789a51f00c3ab4128442471",
+      "apkUrl": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.27.155533/streamx-vinyl-v1.0.0.apk",
+      "sha256": "868769f425cdc3edf5a31cf732b5afd808ec25dba3db859a81c973c699dc81be",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
       "size": 177011,
-      "iconUrl": "https://streamxproject.github.io/StreamX-Releases/extensions/icons/streamx-icon-com.music.streamx.skins.vinyl-3ea1ce96df28.svg"
+      "iconUrl": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.27.155533/streamx-icon-com.music.streamx.skins.vinyl-3ea1ce96df28.svg"
     },
     {
       "id": "cassette",
@@ -295,11 +295,11 @@
       "type": "skin",
       "abis": [],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.120235/streamx-cassette-v1.0.0.apk",
-      "sha256": "3475d1d94cf6c465bd3f91e9e9d039ecfcc68eb7238284c0672ac013d34c84ed",
+      "apkUrl": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.27.155533/streamx-cassette-v1.0.0.apk",
+      "sha256": "ef5c9cb02c1d256f83b81877d9985b7d4f4435a3ea8897f918dabc25ff52e460",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
       "size": 185963,
-      "iconUrl": "https://streamxproject.github.io/StreamX-Releases/extensions/icons/streamx-icon-com.music.streamx.skins.cassette-3fd806d74734.svg"
+      "iconUrl": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.27.155533/streamx-icon-com.music.streamx.skins.cassette-3fd806d74734.svg"
     },
     {
       "id": "discman",
@@ -310,11 +310,11 @@
       "type": "skin",
       "abis": [],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.120235/streamx-discman-v1.0.0.apk",
-      "sha256": "fec0f14574880ec0e30a63ac9ba1b7913b9dd7e02eae77d9da7f4ed79163f8bf",
+      "apkUrl": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.27.155533/streamx-discman-v1.0.0.apk",
+      "sha256": "cf571e910d7911cd29d59ea6322123e02c8f33166c5c8e3a72242417b8b6cee5",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
       "size": 176283,
-      "iconUrl": "https://streamxproject.github.io/StreamX-Releases/extensions/icons/streamx-icon-com.music.streamx.skins.discman-67df55f9dcdc.svg"
+      "iconUrl": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.27.155533/streamx-icon-com.music.streamx.skins.discman-67df55f9dcdc.svg"
     },
     {
       "id": "nightwave",
@@ -325,11 +325,11 @@
       "type": "skin",
       "abis": [],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.120235/streamx-nightwave-v1.0.0.apk",
-      "sha256": "6d6b256f9a4c76359fb3a05b22094485fd36e554f7afab59c2370f7de97d84b1",
+      "apkUrl": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.27.155533/streamx-nightwave-v1.0.0.apk",
+      "sha256": "975cbb6e74d397a6eee0a8dae17dd2052a336fc956698723087711db512710bd",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
       "size": 174835,
-      "iconUrl": "https://streamxproject.github.io/StreamX-Releases/extensions/icons/streamx-icon-com.music.streamx.skins.nightwave-ee3e2cf09662.svg"
+      "iconUrl": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.27.155533/streamx-icon-com.music.streamx.skins.nightwave-ee3e2cf09662.svg"
     },
     {
       "id": "paper",
@@ -340,11 +340,11 @@
       "type": "skin",
       "abis": [],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.120235/streamx-paper-v1.0.0.apk",
-      "sha256": "932228ae17b5b1c0cbcfcaabd12ee1959830b8d75d678577cd02d14715502dbc",
+      "apkUrl": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.27.155533/streamx-paper-v1.0.0.apk",
+      "sha256": "4156b80fbc3d5d3f648d8496434938b25cd6b98e3902ab7932bea1239770240e",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
       "size": 174615,
-      "iconUrl": "https://streamxproject.github.io/StreamX-Releases/extensions/icons/streamx-icon-com.music.streamx.skins.paper-b8e1d7e58b76.svg"
+      "iconUrl": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.27.155533/streamx-icon-com.music.streamx.skins.paper-b8e1d7e58b76.svg"
     },
     {
       "id": "wave",
@@ -355,11 +355,11 @@
       "type": "skin",
       "abis": [],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.120235/streamx-wave-v1.0.0.apk",
-      "sha256": "833bd01301c2322d4ec2cd2640e4a36593ecb435087dbdc34305ff4daff8ee2e",
+      "apkUrl": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.27.155533/streamx-wave-v1.0.0.apk",
+      "sha256": "e19d00795b83ef8f9d3a4ce115b8be8ca0d4cf9c7de3232ba3e619f3d1abb7b1",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
-      "size": 179783,
-      "iconUrl": "https://streamxproject.github.io/StreamX-Releases/extensions/icons/streamx-icon-com.music.streamx.skins.wave-e002ba7de22f.svg"
+      "size": 179787,
+      "iconUrl": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.27.155533/streamx-icon-com.music.streamx.skins.wave-e002ba7de22f.svg"
     },
     {
       "id": "studio",
@@ -370,11 +370,11 @@
       "type": "skin",
       "abis": [],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.120235/streamx-studio-v1.0.0.apk",
-      "sha256": "cce72fffc034384e91172457b750a30eefb121885939380c1058dc95079698a6",
+      "apkUrl": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.27.155533/streamx-studio-v1.0.0.apk",
+      "sha256": "6f5d9216aa0bfc0bd1924bcdd565f5bce8f7d3159cd5be7d6d96fb376ae1f03c",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
-      "size": 180595,
-      "iconUrl": "https://streamxproject.github.io/StreamX-Releases/extensions/icons/streamx-icon-com.music.streamx.skins.studio-90c01439ca95.svg"
+      "size": 180599,
+      "iconUrl": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.27.155533/streamx-icon-com.music.streamx.skins.studio-90c01439ca95.svg"
     },
     {
       "id": "polaroid",
@@ -385,11 +385,11 @@
       "type": "skin",
       "abis": [],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.120235/streamx-polaroid-v1.0.0.apk",
-      "sha256": "acf298edadf7c430ef69099e9254ad9bf2aa53b53d32302828c673888d41efee",
+      "apkUrl": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.27.155533/streamx-polaroid-v1.0.0.apk",
+      "sha256": "5925ec81e1c409a323855ea2471fceb99233e6de0e09d5e4cf12867292b7535c",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
       "size": 176871,
-      "iconUrl": "https://streamxproject.github.io/StreamX-Releases/extensions/icons/streamx-icon-com.music.streamx.skins.polaroid-afcaf585552c.svg"
+      "iconUrl": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.27.155533/streamx-icon-com.music.streamx.skins.polaroid-afcaf585552c.svg"
     },
     {
       "id": "namida",
@@ -400,11 +400,11 @@
       "type": "skin",
       "abis": [],
       "minSdk": 26,
-      "apkUrl": "https://github.com/StreamXProject/StreamX-Releases/releases/download/extensions-v2026.10.27.120235/streamx-namida-v1.0.0.apk",
-      "sha256": "b89f0c176129dbf1151a818a7f9414bf736a3c014efc55fc84bb9e09e3a7b833",
+      "apkUrl": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.27.155533/streamx-namida-v1.0.0.apk",
+      "sha256": "56a41e8a01458745246932ecf15af019b10837a424471f800598fc017d2d29d8",
       "certificateSha256": "f0d96c1f8f886ba0c4049fdfeaddf3f945e06ac5c623f734f7a88d28edff10f2",
       "size": 318867,
-      "iconUrl": "https://streamxproject.github.io/StreamX-Releases/extensions/icons/streamx-icon-com.music.streamx.skins.namida-9cb9d55cd7c1.svg"
+      "iconUrl": "https://github.com/StreamXProject/Skins/releases/download/v2026.10.27.155533/streamx-icon-com.music.streamx.skins.namida-9cb9d55cd7c1.svg"
     }
   ]
 }
